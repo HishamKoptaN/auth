@@ -33,14 +33,10 @@ dependencies:
   pretty_dio_logger: ^1.4.0
   provider: ^6.1.2
   retrofit: ^4.0.3
-  form_inputs:
-   path: G:/packages/form_inputs
-   # git:
-   #   url: https://github.com/HishamKoptaN/form_inputs.git
   error:
-   path: G:/packages/error
-   # git:
-   #   url: https://github.com/HishamKoptaN/form_inputs.git
+    git:
+      url: https://github.com/HishamKoptaN/error.git
+      ref: main
   flutter_localization: ^0.3.1
   flutter_localizations:
     sdk: flutter
@@ -65,7 +61,7 @@ flutter:
     - assets/
     - assets/icons/
   fonts:
-    - family: 'Tajawal'
+    - family: "Tajawal"
       fonts:
         - asset: assets/fonts/Tajawal-ExtraLight.ttf
           weight: 200
